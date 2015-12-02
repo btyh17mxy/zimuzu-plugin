@@ -1,4 +1,4 @@
-# by Mush Mo (mush@pandorica.io)
+## by Mush Mo (mush@pandorica.io)
 addStyle = (stylePath, f) ->
     container = document.getElementsByTagName("head")[0]
     addStyle = document.createElement("link")
