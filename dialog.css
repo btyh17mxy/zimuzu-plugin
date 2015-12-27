@@ -93,6 +93,14 @@
     opacity: 0.8;
 }
 
+.btn-copy {
+    display: inline-block !important;
+    width: inherit !important;
+    padding: 0px 10px 0px 10px !important;
+    margin-top: 0px !important;
+    margin-right: 7px !important;
+}
+
 .mask {
     visibility: hidden;
     position: absolute;
@@ -127,4 +135,11 @@
 
 .diy-btn:hover {
     background-color: #EE4747;
+}
+.super-hide {
+    width: 1px;
+    height: 1px;
+    display: inline-block;
+    text-overflow: initial;
+    overflow: hidden;
 }
